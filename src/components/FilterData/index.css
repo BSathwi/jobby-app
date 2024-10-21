@@ -1,0 +1,11 @@
+.filter_data_unlist {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.filter_data_list {
+  color: white;
+  font-size: 14px;
+  margin-top: 20px;
+  font-family: Roboto;
+}

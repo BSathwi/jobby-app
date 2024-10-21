@@ -1,0 +1,31 @@
+.username_container_jobsection1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 20px;
+}
+.profile_heading {
+  color: #6366f1;
+  font-family: Roboto;
+}
+.profile_para {
+  color: #7e858e;
+  font-family: Roboto;
+}
+.username_container_failure {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.username_container_failure_button {
+  background-color: #6366f1;
+  color: white;
+  padding: 10px 20px;
+  border-width: 0px;
+}

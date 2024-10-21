@@ -1,0 +1,120 @@
+.JobDetails_main_container {
+  background-color: #000000;
+  padding: 5% 5%;
+}
+.JobDetails_main_container1 {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 2%;
+}
+.jobs_heading1 {
+  font-size: 30px;
+  font-family: Roboto;
+  color: white;
+  font-weight: 500;
+}
+.location_para_jobdetails {
+  font-size: 22px;
+  font-family: Roboto;
+  color: white;
+}
+.unlist_skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.list_skills {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.image_skills {
+  width: 60px;
+  height: 60px;
+}
+.image_para_skills {
+  color: white;
+  font-size: 20px;
+  font-family: Roboto;
+  margin-left: 20px;
+}
+
+@media all and (max-width: 576px) {
+  .image_skills {
+    width: 40px;
+    height: 40px;
+  }
+  .image_para_skills {
+    font-size: 16px;
+  }
+  .list_skills {
+    font-size: 20px;
+  }
+  .jobs_heading1 {
+    font-size: 24px;
+  }
+  .location_para_jobdetails {
+    font-size: 16px;
+  }
+  .unlist_skills {
+    width: 90%;
+    justify-content: space-between;
+  }
+}
+.life_at_company {
+  display: flex;
+  align-items: center;
+}
+.life_at_company1 {
+  width: 60%;
+}
+.life_at_company2 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.location_image_jobdetails {
+  width: 50%;
+  height: 50%;
+}
+.descriptionDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.anchor_element {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #6366f1;
+}
+.similar_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.similar_content_li {
+  width: 30%;
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+@media all and (max-width: 576px) {
+  .similar_content_li {
+    width: 100%;
+  }
+}
